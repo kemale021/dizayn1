@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.b{
+    width: 20%;
+    height: 200px;  
+    position: relative;
+    background-color: brown;
+    animation-name: hereket;
+    animation-duration: 4s;
+    animation-direction: 2s;
+    animation-iteration-count: initial;
+    
+}
+@keyframes hereket{
+    0%{
+        background-color: orangered;
+        left: 0px;
+        top: 0;
+        
+    }
+    25%{
+        left: 1000px;
+        bottom: 200px;
+        background: indianred;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+        background-color: red;
+    }
+    75%{
+        left: 500px;
+        top: 500px;
+        background: yellow;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: purple;
+    }
+
+
+    
+}
